@@ -1,16 +1,15 @@
-import './App.css';
-import ClassCounter from "./component/ClassCounter";
-import HookObjects from "./component/HookObjects";
-import HooksCounter from "./component/HooksCounter";
+import React from 'react'
+import './App.css'
+import AnotherCounter from "./components/AnotherCounter"
+import ParentComponent from './components/ParentComponent'
 
 function App() {
 	return (
 		<div className="App">
-			{/* <ClassCounter/>
-			<HooksCounter/> */}
-			<HookObjects/>
+			<AnotherCounter />
+			<ParentComponent/>
 		</div>
-	);
+	)
 }
 
-export default App;
+export default App
